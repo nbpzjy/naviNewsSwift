@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		227F5B6E73B449653BB7CFDF /* Pods_NaviNews.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC37945261DD85B60323F19E /* Pods_NaviNews.framework */; };
+		527BBBE81ED3D04A00AF204A /* NewsListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527BBBE71ED3D04A00AF204A /* NewsListController.swift */; };
 		52BF01821ED0299400D97859 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52BF01811ED0299400D97859 /* AppDelegate.swift */; };
 		52BF01841ED0299400D97859 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52BF01831ED0299400D97859 /* ViewController.swift */; };
 		52BF01871ED0299400D97859 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52BF01851ED0299400D97859 /* Main.storyboard */; };
@@ -14,6 +16,10 @@
 		52BF018C1ED0299400D97859 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52BF018A1ED0299400D97859 /* LaunchScreen.storyboard */; };
 		52BF01971ED0299400D97859 /* NaviNewsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52BF01961ED0299400D97859 /* NaviNewsTests.swift */; };
 		52BF01A21ED0299400D97859 /* NaviNewsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52BF01A11ED0299400D97859 /* NaviNewsUITests.swift */; };
+		52BF01B01ED0974A00D97859 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52BF01AF1ED0974A00D97859 /* NetworkService.swift */; };
+		52BF01B21ED0A15D00D97859 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52BF01B11ED0A15D00D97859 /* Category.swift */; };
+		BC22194A23F9D2FB08E4A568 /* Pods_NaviNewsUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5D1B00FF520888D1D59DDFF /* Pods_NaviNewsUITests.framework */; };
+		EE30BBCF360118FC2E7DD966 /* Pods_NaviNewsTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2923B26C988B75E67D054351 /* Pods_NaviNewsTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +40,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0247FC555D1EDE9C8525BD15 /* Pods-NaviNewsUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NaviNewsUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-NaviNewsUITests/Pods-NaviNewsUITests.release.xcconfig"; sourceTree = "<group>"; };
+		2923B26C988B75E67D054351 /* Pods_NaviNewsTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NaviNewsTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4DE1AC7A75AB51F3C88B8968 /* Pods-NaviNewsUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NaviNewsUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NaviNewsUITests/Pods-NaviNewsUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		527BBBE71ED3D04A00AF204A /* NewsListController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewsListController.swift; sourceTree = "<group>"; };
 		52BF017E1ED0299400D97859 /* NaviNews.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NaviNews.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		52BF01811ED0299400D97859 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		52BF01831ED0299400D97859 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +57,14 @@
 		52BF019D1ED0299400D97859 /* NaviNewsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NaviNewsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		52BF01A11ED0299400D97859 /* NaviNewsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NaviNewsUITests.swift; sourceTree = "<group>"; };
 		52BF01A31ED0299400D97859 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		52BF01AF1ED0974A00D97859 /* NetworkService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+		52BF01B11ED0A15D00D97859 /* Category.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
+		5E0B23BCD4E3DE817F584EBA /* Pods-NaviNewsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NaviNewsTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NaviNewsTests/Pods-NaviNewsTests.debug.xcconfig"; sourceTree = "<group>"; };
+		82286CD4EA4742B8B218E032 /* Pods-NaviNews.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NaviNews.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NaviNews/Pods-NaviNews.debug.xcconfig"; sourceTree = "<group>"; };
+		85BC999D68CCE954AF89B30E /* Pods-NaviNews.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NaviNews.release.xcconfig"; path = "Pods/Target Support Files/Pods-NaviNews/Pods-NaviNews.release.xcconfig"; sourceTree = "<group>"; };
+		AC37945261DD85B60323F19E /* Pods_NaviNews.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NaviNews.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC84C71E8D655BE8F3ED200C /* Pods-NaviNewsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NaviNewsTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-NaviNewsTests/Pods-NaviNewsTests.release.xcconfig"; sourceTree = "<group>"; };
+		D5D1B00FF520888D1D59DDFF /* Pods_NaviNewsUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NaviNewsUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +72,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				227F5B6E73B449653BB7CFDF /* Pods_NaviNews.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EE30BBCF360118FC2E7DD966 /* Pods_NaviNewsTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +88,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BC22194A23F9D2FB08E4A568 /* Pods_NaviNewsUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +102,8 @@
 				52BF01951ED0299400D97859 /* NaviNewsTests */,
 				52BF01A01ED0299400D97859 /* NaviNewsUITests */,
 				52BF017F1ED0299400D97859 /* Products */,
+				969E6E363AE50F410C62D35F /* Pods */,
+				52CC9C22D4C84DD9DF4C865A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -100,9 +123,12 @@
 				52BF01811ED0299400D97859 /* AppDelegate.swift */,
 				52BF01831ED0299400D97859 /* ViewController.swift */,
 				52BF01851ED0299400D97859 /* Main.storyboard */,
+				527BBBE71ED3D04A00AF204A /* NewsListController.swift */,
 				52BF01881ED0299400D97859 /* Assets.xcassets */,
 				52BF018A1ED0299400D97859 /* LaunchScreen.storyboard */,
 				52BF018D1ED0299400D97859 /* Info.plist */,
+				52BF01AF1ED0974A00D97859 /* NetworkService.swift */,
+				52BF01B11ED0A15D00D97859 /* Category.swift */,
 			);
 			path = NaviNews;
 			sourceTree = "<group>";
@@ -125,6 +151,29 @@
 			path = NaviNewsUITests;
 			sourceTree = "<group>";
 		};
+		52CC9C22D4C84DD9DF4C865A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AC37945261DD85B60323F19E /* Pods_NaviNews.framework */,
+				2923B26C988B75E67D054351 /* Pods_NaviNewsTests.framework */,
+				D5D1B00FF520888D1D59DDFF /* Pods_NaviNewsUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		969E6E363AE50F410C62D35F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				82286CD4EA4742B8B218E032 /* Pods-NaviNews.debug.xcconfig */,
+				85BC999D68CCE954AF89B30E /* Pods-NaviNews.release.xcconfig */,
+				5E0B23BCD4E3DE817F584EBA /* Pods-NaviNewsTests.debug.xcconfig */,
+				BC84C71E8D655BE8F3ED200C /* Pods-NaviNewsTests.release.xcconfig */,
+				4DE1AC7A75AB51F3C88B8968 /* Pods-NaviNewsUITests.debug.xcconfig */,
+				0247FC555D1EDE9C8525BD15 /* Pods-NaviNewsUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +181,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 52BF01A61ED0299400D97859 /* Build configuration list for PBXNativeTarget "NaviNews" */;
 			buildPhases = (
+				2CC50C941DE6675B8CD6A46B /* [CP] Check Pods Manifest.lock */,
 				52BF017A1ED0299400D97859 /* Sources */,
 				52BF017B1ED0299400D97859 /* Frameworks */,
 				52BF017C1ED0299400D97859 /* Resources */,
+				4AFA4B09D350DB12635BE29A /* [CP] Embed Pods Frameworks */,
+				E3D4F09FCF531633F66BE89D /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +201,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 52BF01A91ED0299400D97859 /* Build configuration list for PBXNativeTarget "NaviNewsTests" */;
 			buildPhases = (
+				30B9C2A79AA1074382E86D0E /* [CP] Check Pods Manifest.lock */,
 				52BF018E1ED0299400D97859 /* Sources */,
 				52BF018F1ED0299400D97859 /* Frameworks */,
 				52BF01901ED0299400D97859 /* Resources */,
+				C41B0D6F089C194F00530956 /* [CP] Embed Pods Frameworks */,
+				04ECAF77F40FEFDDFA7D9760 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +222,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 52BF01AC1ED0299400D97859 /* Build configuration list for PBXNativeTarget "NaviNewsUITests" */;
 			buildPhases = (
+				6595F1B63526433AA5C98A4E /* [CP] Check Pods Manifest.lock */,
 				52BF01991ED0299400D97859 /* Sources */,
 				52BF019A1ED0299400D97859 /* Frameworks */,
 				52BF019B1ED0299400D97859 /* Resources */,
+				2501B772402CA26F1916919F /* [CP] Embed Pods Frameworks */,
+				2C4855D3B8E12DBFA0566FC2 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -254,6 +312,144 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		04ECAF77F40FEFDDFA7D9760 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NaviNewsTests/Pods-NaviNewsTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2501B772402CA26F1916919F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NaviNewsUITests/Pods-NaviNewsUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2C4855D3B8E12DBFA0566FC2 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NaviNewsUITests/Pods-NaviNewsUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2CC50C941DE6675B8CD6A46B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		30B9C2A79AA1074382E86D0E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		4AFA4B09D350DB12635BE29A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NaviNews/Pods-NaviNews-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6595F1B63526433AA5C98A4E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C41B0D6F089C194F00530956 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NaviNewsTests/Pods-NaviNewsTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E3D4F09FCF531633F66BE89D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NaviNews/Pods-NaviNews-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		52BF017A1ED0299400D97859 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -261,6 +457,9 @@
 			files = (
 				52BF01841ED0299400D97859 /* ViewController.swift in Sources */,
 				52BF01821ED0299400D97859 /* AppDelegate.swift in Sources */,
+				52BF01B01ED0974A00D97859 /* NetworkService.swift in Sources */,
+				52BF01B21ED0A15D00D97859 /* Category.swift in Sources */,
+				527BBBE81ED3D04A00AF204A /* NewsListController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -410,6 +609,7 @@
 		};
 		52BF01A71ED0299400D97859 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 82286CD4EA4742B8B218E032 /* Pods-NaviNews.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = NaviNews/Info.plist;
@@ -422,6 +622,7 @@
 		};
 		52BF01A81ED0299400D97859 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 85BC999D68CCE954AF89B30E /* Pods-NaviNews.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = NaviNews/Info.plist;
@@ -434,6 +635,7 @@
 		};
 		52BF01AA1ED0299400D97859 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5E0B23BCD4E3DE817F584EBA /* Pods-NaviNewsTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -448,6 +650,7 @@
 		};
 		52BF01AB1ED0299400D97859 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BC84C71E8D655BE8F3ED200C /* Pods-NaviNewsTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -462,6 +665,7 @@
 		};
 		52BF01AD1ED0299400D97859 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4DE1AC7A75AB51F3C88B8968 /* Pods-NaviNewsUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = NaviNewsUITests/Info.plist;
@@ -475,6 +679,7 @@
 		};
 		52BF01AE1ED0299400D97859 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0247FC555D1EDE9C8525BD15 /* Pods-NaviNewsUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = NaviNewsUITests/Info.plist;
@@ -505,6 +710,7 @@
 				52BF01A81ED0299400D97859 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		52BF01A91ED0299400D97859 /* Build configuration list for PBXNativeTarget "NaviNewsTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +719,7 @@
 				52BF01AB1ED0299400D97859 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		52BF01AC1ED0299400D97859 /* Build configuration list for PBXNativeTarget "NaviNewsUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +728,7 @@
 				52BF01AE1ED0299400D97859 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
