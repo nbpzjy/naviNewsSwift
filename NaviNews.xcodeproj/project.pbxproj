@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		227F5B6E73B449653BB7CFDF /* Pods_NaviNews.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC37945261DD85B60323F19E /* Pods_NaviNews.framework */; };
 		527BBBE81ED3D04A00AF204A /* NewsListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527BBBE71ED3D04A00AF204A /* NewsListController.swift */; };
+		527BBBEA1ED3E49C00AF204A /* TextCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527BBBE91ED3E49C00AF204A /* TextCell.swift */; };
 		52BF01821ED0299400D97859 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52BF01811ED0299400D97859 /* AppDelegate.swift */; };
 		52BF01841ED0299400D97859 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52BF01831ED0299400D97859 /* ViewController.swift */; };
 		52BF01871ED0299400D97859 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52BF01851ED0299400D97859 /* Main.storyboard */; };
@@ -44,6 +45,7 @@
 		2923B26C988B75E67D054351 /* Pods_NaviNewsTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NaviNewsTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4DE1AC7A75AB51F3C88B8968 /* Pods-NaviNewsUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NaviNewsUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NaviNewsUITests/Pods-NaviNewsUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		527BBBE71ED3D04A00AF204A /* NewsListController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewsListController.swift; sourceTree = "<group>"; };
+		527BBBE91ED3E49C00AF204A /* TextCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextCell.swift; sourceTree = "<group>"; };
 		52BF017E1ED0299400D97859 /* NaviNews.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NaviNews.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		52BF01811ED0299400D97859 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		52BF01831ED0299400D97859 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -129,6 +131,7 @@
 				52BF018D1ED0299400D97859 /* Info.plist */,
 				52BF01AF1ED0974A00D97859 /* NetworkService.swift */,
 				52BF01B11ED0A15D00D97859 /* Category.swift */,
+				527BBBE91ED3E49C00AF204A /* TextCell.swift */,
 			);
 			path = NaviNews;
 			sourceTree = "<group>";
@@ -459,6 +462,7 @@
 				52BF01821ED0299400D97859 /* AppDelegate.swift in Sources */,
 				52BF01B01ED0974A00D97859 /* NetworkService.swift in Sources */,
 				52BF01B21ED0A15D00D97859 /* Category.swift in Sources */,
+				527BBBEA1ED3E49C00AF204A /* TextCell.swift in Sources */,
 				527BBBE81ED3D04A00AF204A /* NewsListController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
